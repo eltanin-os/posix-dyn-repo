@@ -1,0 +1,14 @@
+name:wayland
+version:1.19.0
+license:MIT
+description:A computer display server protocol.
+cksum:4f0d8c9203938c17574ae04172bc58e724410186f25c45d007408666500f717e3b766da9cd10e6e8cc34bd58c1d038313634bcf6a2b1d41e7d582310cb5223c0
+mirrors{
+	https://wayland.freedesktop.org/releases/wayland-$version.tar.xz
+}
+mdeps{
+	expat
+	libc
+	libffi
+	libxml2
+}

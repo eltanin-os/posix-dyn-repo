@@ -1,0 +1,2 @@
+#!/bin/rc
+portmk -m --disable-multi-os-directory autohell install

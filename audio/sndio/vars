@@ -1,0 +1,12 @@
+name:sndio
+version:1.8.1
+license:ISC
+description:A small audio and MIDI framework.
+cksum:8211bbab99975c92c4bb0f817c9b73d092a113d351dd5dca44fa5cf1f5fa5ab329c12c35a02b6185c26962c6a2d500bd151e8c4e9cb395e52e51343970da833a
+mirrors{
+	https://sndio.org/sndio-$version.tar.gz
+}
+mdeps{
+	alsa-lib
+	libc
+}

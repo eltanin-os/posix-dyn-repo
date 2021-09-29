@@ -1,0 +1,11 @@
+name:gdbm
+version:1.21
+license:GPL-3+
+description:GNU database routines.
+cksum:9dd03c8aa723d3ae5883dffa6f7a3a902335f37e404a8ef4b75856c0ff6a250303e84b78a24602e4409234832520c5befc23ad9697a6efce03d094943e75ce8d
+mirrors{
+	https://ftp.gnu.org/gnu/gdbm/gdbm-$version.tar.gz
+}
+mdeps{
+	libc
+}

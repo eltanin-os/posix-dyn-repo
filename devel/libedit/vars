@@ -1,0 +1,12 @@
+name:libedit
+version:20210910-3.1
+license:BSD-3
+description:NetBSD command line editor library.
+cksum:859f686cc85890494cc44e12cac39487bc29975cf21591cf05efefbdd2ac42cd27248728e258587386e72e4c9f451023186bf184bf30f2f84e0ddf967e641eab
+mirrors{
+	http://thrysoee.dk/editline/libedit-$version.tar.gz
+}
+mdeps{
+	ncurses
+	libc
+}

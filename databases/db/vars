@@ -1,0 +1,11 @@
+name:db
+version:5.3.28
+license:CUSTOM
+description:The Berkeley DB embedded database system.
+cksum:ad9042c4509ece1cae42ade4734f69d59a9ec946a85bd486063a7e8f9fa1ae3f925b71f0475fef05a27d33f695ef82ffd06fbaadbd7dc5bfaa77a8caacf9d1dc
+mirrors{
+	https://download.oracle.com/berkeley-db/db-$version.tar.gz
+}
+mdeps{
+	libc
+}

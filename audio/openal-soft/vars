@@ -1,0 +1,13 @@
+name:openal-soft
+version:1.21.1
+license:LGPL-2+
+description:software implementation of OpenAL API.
+cksum:c4e342ff7b5a87b67121e537529362514903f28501b47efc0e2e89d6b4860f09d4f21e5ddebfee3266c206af4b872d163d60591f552cc5bfe44d584ceec65576
+mirrors{
+	http://downloads.eltan.in.net/mirrors/openal-soft-$version.tar.gz
+}
+mdeps{
+	alsa-lib
+	libc
+	sndio
+}

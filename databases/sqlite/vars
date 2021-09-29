@@ -1,0 +1,13 @@
+name:sqlite
+version:3.36.0
+license:PUBLIC_DOMAIN
+description:SQL Database Engine in a C Library.
+cksum:6a8beb15d770dcd3457ddae7cd32125542c753fb4e9c29eef3bdfe202453a292c585d8fa566f89a44ddb3de07fc9940b5b612b9805141225e99915901e5ba705
+src:sqlite-autoconf-3360000
+mirrors{
+	https://www.sqlite.org/2021/sqlite-autoconf-3360000.tar.gz
+}
+mdeps{
+	libc
+	libedit
+}

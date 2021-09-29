@@ -1,0 +1,16 @@
+name:libx11
+version:1.7.2
+license:MIT
+description:X.Org X11 client-side library.
+cksum:50d0125b3606550d955448bca21a64ec154a1260fa69dddf79804a36a3bc4dfe8a575862414b6297d4b936abfae45e6bde29ddcbc65c1a6e288432f1a20e1520
+src:libX11-$version
+mirrors{
+	https://www.x.org/releases/individual/lib/libX11-$version.tar.bz2
+}
+mdeps{
+	libc
+	libxcb
+	util-macros
+	xorg-proto
+	xtrans
+}

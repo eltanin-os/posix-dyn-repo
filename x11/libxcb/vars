@@ -1,0 +1,15 @@
+name:libxcb
+version:1.14
+license:MIT
+description:X.Org X11 protocol C binding library.
+cksum:a8a8986649ddeaaad725d06cc2dbd98e00cbd79a5370853c46b3a395deb87f350b1b7dbbf11f57a3c9043df12cdfdf0abee99ef56f558365851ae30d1b5b69d3
+mirrors{
+	https://www.x.org/releases/individual/xcb/libxcb-$version.tar.xz
+}
+mdeps{
+	libc
+	libpthread-stubs
+	libxau
+	libxdmcp
+	xcb-proto
+}

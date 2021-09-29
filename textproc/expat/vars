@@ -1,0 +1,11 @@
+name:expat
+version:2.4.1
+license:MIT
+description:XML Parser library written in C.
+cksum:e77acc15f707ea3f64dcc149788394eb8d12ed65b4c878886f4204dd75f224f0557bd27b98daff3aa1b38d05bf0c63c340647e114f4dd9fb5fd098fe72520066
+mirrors{
+	https://downloads.sourceforge.net/project/expat/expat/$version/expat-$version.tar.lz
+}
+mdeps{
+	libc
+}

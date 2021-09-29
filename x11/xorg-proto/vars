@@ -1,0 +1,12 @@
+name:xorg-proto
+version:2021.5
+license:MIT
+description:Combined X.Org X11 protocol headers.
+cksum:f5908bd58073cfe55a24684ad07725cbf92fa71e5d89a16de54f58cf39d5d9e3b1e0328487e2c987caa352d33202de94ed3eef770982aeeecbddb0feae03e063
+src:xorgproto-$version
+mirrors{
+	https://www.x.org/releases/individual/proto/xorgproto-$version.tar.bz2
+}
+mdeps{
+	util-macros
+}

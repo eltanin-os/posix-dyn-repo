@@ -1,0 +1,19 @@
+name:libxml2
+version:2.9.10
+license:MIT
+description:(buggy) XML parser library from GNOME.
+cksum:f19f02e240feaf87361153de6f6edc5d7a52c673288f66b3f9d891576eddecbccd9a242e60567165505ce66e5ebb4461985b782efcfbfebc1925a3c580e5d73c
+patches{
+	libxml2-fix_freeing_of_nested_documents.patch
+	libxml2-fix_infinite_loop_in_xmlStringLenDecodeEntities.patch
+	libxml2-fix_memory_leak_in_xmlSchemaValidateStream.patch
+	libxml2-fix_out_of_bounds_read_with_xmllint_htmlout.patch
+}
+mirrors{
+	http://xmlsoft.org/sources/libxml2-$version.tar.gz
+}
+mdeps{
+	libc
+	libz
+	xz
+}

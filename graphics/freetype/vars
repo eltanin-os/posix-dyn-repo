@@ -1,0 +1,14 @@
+name:freetype
+version:2.11.0
+license:FTL GPL-2+
+description:TrueType font rendering library.
+cksum:c16f5bdd87f506f31d602dcfeae9bc9aa43a0c247606bb416f75ea0fbf23b8ac24bca5df7c1bf432ddc80f73b7347c754ef80f572b6c5c6ea1d7d992cb943a13
+mirrors{
+	http://download.savannah.gnu.org/releases/freetype/freetype-$version.tar.xz
+}
+mdeps{
+	bzip2
+	libc
+	libpng
+	libz
+}

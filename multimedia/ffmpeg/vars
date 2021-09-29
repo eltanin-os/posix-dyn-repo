@@ -1,0 +1,17 @@
+name:ffmpeg
+version:4.4
+license:GPL-2+ LGPL-2.1+
+description:Decoding, encoding and streaming software.
+cksum:9df8fb1a72539291a89c1424d123e28c452b52ed71d703a83793369e4985bae6cecad0d249c6a6c3a7ed7aacff2595715ec3b043bfe8669a2989cf6230f55f55
+mirrors{
+	http://ffmpeg.org/releases/ffmpeg-$version.tar.xz
+}
+mdeps{
+	bzip2
+	libc
+	libopus
+	libressl
+	libvorbis
+	libz
+	SDL2
+}

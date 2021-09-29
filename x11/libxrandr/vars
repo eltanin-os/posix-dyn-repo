@@ -1,0 +1,17 @@
+name:libxrandr
+version:1.5.2
+license:MIT
+description:X11 RandR extension library.
+cksum:2bb736105cbce1c8514bd86e269fdaacea304cdec04a841b3d6077d74b6682ab6fc06544d487041a09d63177964f98477c7686dd3ce041aecd6c756bc16109f4
+src:libXrandr-$version
+mirrors{
+	https://www.x.org/releases/individual/lib/libXrandr-$version.tar.bz2
+}
+mdeps{
+	libc
+	libx11
+	libxext
+	libxrender
+	xorg-proto
+	util-macros
+}

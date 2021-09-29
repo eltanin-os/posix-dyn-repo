@@ -1,0 +1,12 @@
+name:libpng
+version:1.6.37
+license:CUSTOM
+description:Portable Network Graphics library.
+cksum:760e7accb9c571cd1d9735d47c7a2461d5ee702fd893f328b1ebe66b666ff6b85d7c8e96a698d397f8b178887b5ef2cbf2a47815c0c7d55a0aa2f1b0a70b90d3
+mirrors{
+	https://downloads.sourceforge.net/libpng/libpng-$version.tar.xz
+}
+mdeps{
+	libc
+	libz
+}

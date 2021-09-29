@@ -1,0 +1,29 @@
+name:arcan
+version:0.6.0.1
+license:BSD-3 GPL-2.0+ LGPL
+description:High-quality "Desktop Engine" [Display Server, Multimedia Framework, Game Engine].
+cksum:91c0938836508d9087ddba1a314b97aa44de224ccbdf9173c67fd3a331461d56468659d7fd1e7f05271aecd7d94ed2a657c5aa89e0538d6d641685415862262d
+mirrors{
+	http://downloads.eltan.in.net/mirrors/arcan-$version.tar.gz
+}
+mdeps{
+	bzip2
+	freetype
+	ffmpeg
+	libc
+	libpng
+	libvncserver
+	libxcb
+	libxkbcommon
+	luajit
+	mesalib
+	openal-soft
+	sqlite
+	wayland
+	wayland-protocols
+	xcb-util-wm
+	xcb-util
+}
+rdeps{
+	luajit
+}

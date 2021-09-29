@@ -1,0 +1,12 @@
+name:wayland-protocols
+version:1.23
+license:MIT
+description:Protocols and protocol extensions complementing the Wayland core protocol.
+cksum:e6dd50a4b22e069fa4774d2b8c2705aff90585225e43affb5d3df48d694bc5bbe7116d0436b68b6e073043d1b9354d8f324876920797c27c7aa94992a36deb71
+mirrors{
+	http://downloads.eltan.in.net/mirrors/wayland-protocols-$version.tar.lz
+}
+mdeps{
+	libc
+	wayland
+}

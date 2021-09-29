@@ -1,0 +1,14 @@
+name:libpciaccess
+version:0.16
+license:MIT
+description:X11 PCI access library.
+cksum:4f4d6efd2b1747e3382e83667b4c79b855cbf25a747ff07586459bf092e2ba5864faab7053c58d2f643edc7d3c1f1d750e736fa958d1ec61767321193c290943
+patches{
+	libpciaccess-limits_h.patch
+}
+mirrors{
+	https://www.x.org/releases/individual/lib/libpciaccess-$version.tar.bz2
+}
+mdeps{
+	libc
+}
